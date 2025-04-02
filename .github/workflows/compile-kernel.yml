@@ -13,11 +13,12 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "OneYX"
         type: choice
         options:
           - unifreq
           - codesnas
+          - OneYX
       kernel_version:
         description: "Select kernel version"
         required: false
@@ -72,11 +73,11 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-ophub"
+        default: "-OneYX"
         type: choice
         options:
           - -ophub
-          - -yourname
+          - -OneYX
 
 env:
   TZ: America/New_York
